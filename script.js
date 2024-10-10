@@ -81,26 +81,45 @@ document.addEventListener('DOMContentLoaded', function() {
                 pageToOpen = 'riss.html'; 
                 break;
             case 'їжак':
-                pageToOpen = 'riss.html'; 
+                pageToOpen = 'ijak.html'; 
                 break;
             case 'ведмідь':
-                pageToOpen = 'riss.html'; 
+                pageToOpen = 'bear.html'; 
                 break;
             case 'горностай':
-                pageToOpen = 'riss.html'; 
+                pageToOpen = 'Mustela.html'; 
                 break;
             case 'кіт':
-                pageToOpen = 'riss.html'; 
+                pageToOpen = 'felis.html'; 
                 break;
             case 'афаліна':
-                pageToOpen = 'riss.html'; 
+                pageToOpen = 'tursiops.html'; 
                 break;
             case 'видра':
-                pageToOpen = 'riss.html'; 
+                pageToOpen = 'lutra.html'; 
                 break;
             case 'заєць':
-                pageToOpen = 'riss.html'; 
+                pageToOpen = 'lepus.html'; 
                 break;
+            case 'беркут':
+                pageToOpen = 'aquila.html'; 
+                break;
+            case 'лелека':
+                pageToOpen = 'ciconia.html'; 
+                break;
+            case 'жук-олень':
+            case 'жук олень':
+            case 'жук':
+                pageToOpen = 'lukanus.html'; 
+                break;
+            case 'підсніжник':
+                pageToOpen = 'Galanthus.html'; 
+                break;
+            case 'сон':
+            case 'сон розкритий':
+                pageToOpen = 'Pulsatilla.html'; 
+                break;
+
             // Додайте інші випадки за потреби
             default:
                 alert('Не знайдено!');
