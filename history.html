@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-all.css">
+    <title>Червона книга України | Історія</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container"></div>
+        <div class="logo"></div>
+        <nav class="nav" id="navBar">
+            <ul>
+                <li class="menuButton"><img src="images/logo.jpg" alt="Опис зображення" id="menuButton"></li>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="page2.html">Історія</a></li>
+                <li><a href="#">Корисне</a></li>
+                <li><a href="#target1">Про нас</a></li>
+                <li>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Пошук...">
+                    <button type="button" id="searchButton" class="search-button">Знайти</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content-container">
+    <div class="section-title"><h1>Історія</h1></div>
+    <div class="content">    
+        <p>Деградація довкілля, викликана інтенсивною господарською діяльністю людини, призвела до масштабних зрушень у природних екосистемах, наслідком чого є зменшення чисельності або зникнення багатьох видів тварин, рослин і грибів. Вжиття своєчасних заходів охорони дикої фауни і флори дозволяє призупинити негативні процеси руйнування навколишнього природного середовища та відновити стан популяцій вразливих видів до безпечного рівня.
+            На світовому саміті із сталого розвитку у Йоганнесбурзі у 2002 р. та на Генеральній асамблеї ООН у 2005 р. була схвалена глобальна мета щодо досягнення до 2010 р. суттєвого зменшення втрат біорізноманіття. У зв’язку з цим 2010 р. оголошено ООН Міжнародним роком біорізноманіття з метою привернення уваги країн світу до нагальної проблеми збереження біотичної складової довкілля, яка є основою для існування людства на планеті.
+            Займаючи менше 6% площі Європи, Україна володіє приблизно 35% її біорізноманіття, причиною чого є розташування території України на перехресті багатьох природних зон та міграційних шляхів багатьох видів фауни.
+            Біота України нараховує понад 70 тис. видів, з них флора — понад 27 тис. видів, фауна — понад 45 тис. видів. Одним із заходів збереження цієї різноманітності тваринного і рослинного світу є ведення Червоної книги України, куди заносяться види, що внаслідок різних причин опинилися під загрозою зникнення.
+            Перше однотомне видання Червоної книги України було видано у 1980 р. і до нього було включено 85 видів тварин та 151 вид судинних рослин.
+            Друге видання Червоної книги України було підготовлено у двох томах. Перший том — «Тваринний світ» — був надрукований у 1994 р. і налічує 382 види. Другий том — «Рослинний світ» — вийшов друком у 1996 р. і налічує 541 вид.
+            Третє видання Червоної книги України, видане через 13 років після випуску другого тому другого видання, включає 542 види тварин та 826 видів рослин і грибів. У ньому враховані сучасні наукові дані щодо чисельності та поширення видів, положення міжнародних договорів, Стороною яких стала Україна протягом останніх 10-15 років, зокрема Конвенції про біологічне різноманіття, Конвенції про міжнародну торгівлю видами дикої фауни і флори, що перебувають під загрозою зникнення (CITES), Конвенції про збереження мігруючих видів диких тварин (Боннської конвенції), Конвенції про збереження дикої флори і фауни та природних середовищ існування в Європі (Бернської конвенції) тощо.
+            Нове видання Червоної книги України є результатом праці великого колективу авторів з різних наукових установ, передусім Інституту зоології ім. І.І. Шмальгаузена НАН України, Інституту ботаніки ім. М. Г. Холодного НАН України, інших організацій, окремих фахівців.
+            Координацію робіт щодо підготовки третього видання Червоної книги України здійснювала Національна комісія з питань Червоної книги України та Міністерство охорони навколишнього природного середовища України.
+            Видання Червоної книги України є вагомим внеском у справу збереження різноманітності тваринного і рослинного світу України як основи сталого розвитку держави для теперішнього і майбутніх поколінь.</p>
+    </div>
+    </div>
+    <div id="sideMenu" class="side-menu"> <!--субменю-->
+        
+        <h2 style="color: aliceblue; cursor: pointer;" id="closeButton">&#9668; Таксономія</h2>
+   
+    <ul>
+        <li>
+            <button class="main-link" id="toggleAnimalSubmenu">Тварини<br> Червоної книги</button>
+            <ul class="submenu" style="display: block;"> <!-- Основне меню відкрите -->
+                <li>
+                    <a href="#" id="toggleChordataSubmenu">Хордові</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li>
+                            <a href="#" id="toggleMammalsSubmenu">Ссавці</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="carnivora.html">Хижі</a></li>
+                                <li><a href="#">Гризуни</a></li>
+                                <li><a href="#">Комахоїдні</a></li>
+                                <li><a href="#">Рукокрилі</a></li>
+                                <li><a href="#">Зайцеподібні</a></li>
+                                <li><a href="#">Ластоногі</a></li>
+                                <li><a href="#">Китоподібні</a></li>
+                                <li><a href="#">Парнокопитні</a></li>
+                                <li><a href="#">Непарнокопитні</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleBirdsSubmenu">Птахи</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Пеліканоподібні</a></li>
+                                <li><a href="Ciconiiformes.html">Лелекоподібні</a></li>
+                                <li><a href="#">Гусеподібні</a></li>
+                                <li><a href="Falconiformes.html">Соколоподібні</a></li>
+                                <li><a href="#">Куроподібні</a></li>
+                                <li><a href="#">Журавлеподібні</a></li>
+                                <li><a href="#">Сивкоподібні</a></li>
+                                <li><a href="#">Голубоподібні</a></li>
+                                <li><a href="">Совоподібні</a></li>
+                                <li><a href="#">Ракшеподібні</a></li>
+                                <li><a href="#">Дятлоподібні</a></li>
+                                <li><a href="#">Горобцеподібні</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleReptilesSubmenu">Плазуни</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Ящірки</a></li>
+                                <li><a href="#">Змії</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleAmphibiaSubmenu">Земноводні</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Хвостаті земнововодні</a></li>
+                                <li><a href="#">Безхвості земноводні</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleFishfinraysSubmenu">Променепері риби</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Остероподібні</a></li>
+                                <li><a href="#">Коропоподібні</a></li>
+                                <li><a href="#">Щукоподібні</a></li>
+                                <li><a href="#">Лососеподібні</a></li>
+                                <li><a href="#">Тріскоподібні</a></li>
+                                <li><a href="#">Окунеподібні</a></li>
+                                <li><a href="#">Вудильникоподібні</a></li>
+                                <li><a href="#">Зеусоподібні</a></li>
+                                <li><a href="#">Колючкоподібні</a></li>
+                                <li><a href="#">Скорпеноподібні</a></li>
+                                <li><a href="#">Присоскопероподібні</a></li>
+                                <li><a href="#">Камбалоподібні</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleLampreysSubmenu">Міноги</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Міногоподібні</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleIntestinalSubmenu">Кишковопорожнинні</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Гідроїди</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleRoundwormsSubmenu">Круглі черви</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Нематоди</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleRingwormsSubmenu">Кільчасті черви</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Малощетинкові<br>чеври</a></li>
+                        <li><a href="#">П&#39;явки</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleArthropodaSubmenu">Членистоногі</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Ракоподібні</a></li>
+                        <li><a href="#">Багатоніжки</a></li>
+                        <li><a href="#">Ногохвістки</a></li>
+                        <li><a href="#">Комахи</a></li>
+                        <li><a href="#">Павукоподібні</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleMolluscaSubmenu">Молюски</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Черевоногі</a></li>
+                        <li><a href="#">Двостулкові</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <button class="main-link" id="togglePlantSubmenu">Рослини<br> Червоної книги</button>
+            <ul class="submenu" style="display: block;"> <!-- Основне меню відкрите -->
+                <li><a href="#" id="toggleTracheophytaSubmenu">Судинні рослини</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Плауноподібні</a></li>
+                        <li><a href="Filicophyta.html">Папоротеподібні</a></li>
+                        <li><a href="#">Голонасінні</a></li>
+                        <li>
+                            <a href="#" id="toggleMagnoliophytaSubmenu">Покритонасінні</a>
+                            <ul class="submenu" style="display: none;">
+                            <li><a href="Liliopsida(Plant).html">Однодольні</a></li>
+                            <li><a href="Magnoliopsida(Plant).html">Дводольні</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleFungiSubmenu">Гриби</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="Ascomycota(Fungus).html">Аскоміцети</a></li>
+                        <li><a href="Basidiomycota(Fungus).html">Базидієві<br>гриби</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleAlgaeSubmenu">Водорості</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Стрептофітові водорості</a></li>
+                        <li><a href="#">Жовтозелені водорості</a></li>
+                        <li><a href="#">Бурі водорості</a></li>
+                        <li><a href="#">Червоні водорості</a></li>
+                        <li><a href="#">Зелені водорості</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleBryophytaSubmenu">Мохоподібні</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Печіночники</a></li>
+                        <li><a href="#">Мохи</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleLichensSubmenu">Лишайники</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Сумчасті<br>лишайники</a></li>
+                        <li><a href="#">Базидіоміцети</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>            
+    
+        <!-- Footer section -->
+        <footer class="footer" id="target1">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Контакти</h3>
+                    <p>Email: info@chervonaknyga.ua</p>
+                    <p>Телефон: +380 123 456 789</p>
+                    <p>Адреса: вул. Природна, 15, Київ, Україна</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Швидкі посилання</h3>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="history.html">Історія</a></li>
+                        <li><a href="#">Корисне</a></li>
+                        <li><a href="#">Про нас</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column social-media">
+                    <h3>Соціальні мережі</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><img src="images/fb.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="images/inst.png" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="images/x.png" alt="Twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Червона книга України. Всі права захищені.</p>
+            </div>
+        </footer>
+
+    <script src="script.js"></script>            
+</body>
+</html>

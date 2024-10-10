@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-all.css">
+    <title>Червона книга України | Аспленій Білло</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container"></div>
+        <div class="logo"></div>
+        <nav class="nav" id="navBar">
+            <ul>
+                <li class="menuButton"><img src="images/logo.jpg" alt="Опис зображення" id="menuButton"></li>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="history.html">Історія</a></li>
+                <li><a href="#">Корисне</a></li>
+                <li><a href="#target1">Про нас</a></li>
+                <li>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Пошук...">
+                    <button type="button" id="searchButton" class="search-button">Знайти</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="breadcrumb" style="font-family:Verdana, Geneva, Tahoma, sans-serif;">
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li>&#9658;</li>
+            <li><a href="#">Судинні рослини</a></li>
+            <li>&#9658;</li>
+            <li><a href="Filicophyta.html">Папоротеподібні</a></li>
+            <li>&#9658;</li>
+            <li><a href="#">Аспленійові</a></li>
+            <li>&#9658;</li>
+            <li>Аспленій Білло</li>
+        </ul>
+    </nav>
+    <div id="sideMenu" class="side-menu"> <!--субменю-->
+        
+        <h2 style="color: aliceblue; cursor: pointer;" id="closeButton">&#9668; Таксономія</h2>
+   
+    <ul>
+        <li>
+            <button class="main-link" id="toggleAnimalSubmenu">Тварини<br> Червоної книги</button>
+            <ul class="submenu" style="display: block;"> <!-- Основне меню відкрите -->
+                <li>
+                    <a href="#" id="toggleChordataSubmenu">Хордові</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li>
+                            <a href="#" id="toggleMammalsSubmenu">Ссавці</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="carnivora.html">Хижі</a></li>
+                                <li><a href="#">Гризуни</a></li>
+                                <li><a href="#">Комахоїдні</a></li>
+                                <li><a href="#">Рукокрилі</a></li>
+                                <li><a href="#">Зайцеподібні</a></li>
+                                <li><a href="#">Ластоногі</a></li>
+                                <li><a href="#">Китоподібні</a></li>
+                                <li><a href="#">Парнокопитні</a></li>
+                                <li><a href="#">Непарнокопитні</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleBirdsSubmenu">Птахи</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Пеліканоподібні</a></li>
+                                <li><a href="Ciconiiformes.html">Лелекоподібні</a></li>
+                                <li><a href="#">Гусеподібні</a></li>
+                                <li><a href="Falconiformes.html">Соколоподібні</a></li>
+                                <li><a href="#">Куроподібні</a></li>
+                                <li><a href="#">Журавлеподібні</a></li>
+                                <li><a href="#">Сивкоподібні</a></li>
+                                <li><a href="#">Голубоподібні</a></li>
+                                <li><a href="">Совоподібні</a></li>
+                                <li><a href="#">Ракшеподібні</a></li>
+                                <li><a href="#">Дятлоподібні</a></li>
+                                <li><a href="#">Горобцеподібні</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleReptilesSubmenu">Плазуни</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Ящірки</a></li>
+                                <li><a href="#">Змії</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleAmphibiaSubmenu">Земноводні</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Хвостаті земнововодні</a></li>
+                                <li><a href="#">Безхвості земноводні</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleFishfinraysSubmenu">Променепері риби</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Остероподібні</a></li>
+                                <li><a href="#">Коропоподібні</a></li>
+                                <li><a href="#">Щукоподібні</a></li>
+                                <li><a href="#">Лососеподібні</a></li>
+                                <li><a href="#">Тріскоподібні</a></li>
+                                <li><a href="#">Окунеподібні</a></li>
+                                <li><a href="#">Вудильникоподібні</a></li>
+                                <li><a href="#">Зеусоподібні</a></li>
+                                <li><a href="#">Колючкоподібні</a></li>
+                                <li><a href="#">Скорпеноподібні</a></li>
+                                <li><a href="#">Присоскопероподібні</a></li>
+                                <li><a href="#">Камбалоподібні</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" id="toggleLampreysSubmenu">Міноги</a>
+                            <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                                <li><a href="#">Міногоподібні</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleIntestinalSubmenu">Кишковопорожнинні</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Гідроїди</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleRoundwormsSubmenu">Круглі черви</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Нематоди</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleRingwormsSubmenu">Кільчасті черви</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Малощетинкові<br>чеври</a></li>
+                        <li><a href="#">П&#39;явки</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleArthropodaSubmenu">Членистоногі</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Ракоподібні</a></li>
+                        <li><a href="#">Багатоніжки</a></li>
+                        <li><a href="#">Ногохвістки</a></li>
+                        <li><a href="#">Комахи</a></li>
+                        <li><a href="#">Павукоподібні</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleMolluscaSubmenu">Молюски</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Черевоногі</a></li>
+                        <li><a href="#">Двостулкові</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <button class="main-link" id="togglePlantSubmenu">Рослини<br> Червоної книги</button>
+            <ul class="submenu" style="display: block;"> <!-- Основне меню відкрите -->
+                <li><a href="#" id="toggleTracheophytaSubmenu">Судинні рослини</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Плауноподібні</a></li>
+                        <li><a href="Filicophyta.html">Папоротеподібні</a></li>
+                        <li><a href="#">Голонасінні</a></li>
+                        <li>
+                            <a href="#" id="toggleMagnoliophytaSubmenu">Покритонасінні</a>
+                            <ul class="submenu" style="display: none;">
+                            <li><a href="Liliopsida(Plant).html">Однодольні</a></li>
+                            <li><a href="Magnoliopsida(Plant).html">Дводольні</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleFungiSubmenu">Гриби</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="Ascomycota(Fungus).html">Аскоміцети</a></li>
+                        <li><a href="Basidiomycota(Fungus).html">Базидієві<br>гриби</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleAlgaeSubmenu">Водорості</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Стрептофітові водорості</a></li>
+                        <li><a href="#">Жовтозелені водорості</a></li>
+                        <li><a href="#">Бурі водорості</a></li>
+                        <li><a href="#">Червоні водорості</a></li>
+                        <li><a href="#">Зелені водорості</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleBryophytaSubmenu">Мохоподібні</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Печіночники</a></li>
+                        <li><a href="#">Мохи</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" id="toggleLichensSubmenu">Лишайники</a>
+                    <ul class="submenu" style="display: none;"> <!-- Підкатегорія закрита -->
+                        <li><a href="#">Сумчасті<br>лишайники</a></li>
+                        <li><a href="#">Базидіоміцети</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>        
+    
+    <main>
+        <section class="animal-info">
+            <h1>Аспленій Білло Asplenium billotii F.W.Schultz.</h1>
+            <div class="content">
+                <div class="image-section">
+                    <img src="images/other-plants/aspeleniu.png" alt="">
+                    <img src="images/other-plants/map-asplrniu.png" alt="">
+                    <img src="images/riss/t_pixel0.gif" alt="">
+                </div>
+                <div class="info-section">
+                    <p><b>Таксономічна належність: </b> Родина Аспленієві — Aspleniaceae.</p>
+                    <p><b>Природоохоронний статус виду:</b> <a href="#">  Зникаючий. </a></p>
+                    <p><b>Наукове значення:</b> Середземноморсько-середньоєвропейський вид у диз’юнктивній частині ареалу. </p>
+                    <p><b>Ареал виду та його поширення в Україні:</b> Атлантична та Середня Європа, Средземномор’я, Пд. берег Криму (г. Аю-Даг, Кастель). Адм. регіон: Кр. </p>
+                    <p><b>Чисельність та структура популяцій:</b> Відомі лише дві популяції, які складаються з небагатьох рослин. Виявляє тенденцію до скорочення чисельності особин і кількості місцезростань. </p>
+                    <p><b>Причини зміни чисельності:</b> Курортне будівництво, рекреаційне навантаження, розробка кар’єрів.</p>
+                    <p><b>Умови місцезростання:</b> У розщілинах габбро-діабазових скель на намивних глинах, на приморських схилах г. Аю-Даг і біля підніжжя г. Кастель (угруповання класу Asplenietea trichomanis); ці місцезнаходження є реліктовими, далеко відірваними від основного ареалу. Мезофіт, кальцефоб. </p>
+                    <p><b>Загальна біоморфологічна характеристика:</b> Гемікриптофіт. Багаторічна трав‘яна рослина 10–20 см заввишки. Кореневище повзуче або пряме. Вайї зимуючі, довгасто-ланцетні, найнижчі сегменти першого порядку помітно коротші від наступних; пластинка ваї вдвічі перевищує черешок. Черешок при основі потовщений, соруси розміщені на краю сег-ментів. Спороносить у липні–вересні. Розмножується вегетативно і спорами. </p>
+                    <p><b>Режим збереження популяцій та заходи з охорони:</b> Охороняють в ландшафтному заказнику «Аю-Даг». Заборонено несанкціоноване збирання рослин, порушення умов зростання, господарське використання територій — розробка кар’єрів, будівництво, облаштування рекреаційних пунктів. Потребує режиму абсолютної заповідності та заказного. </p>
+                    <p><b>Розмноження та розведення у спеціально створених умовах:</b> Відомостей немає. </p>
+                    <p><b>Господарське та комерційне значення:</b> Декоративне, протиерозійне.                </p>
+            </div>
+
+            
+        </section>
+    </main>
+    
+      <!-- Footer section -->
+      <footer class="footer" id="target1">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Контакти</h3>
+                <p>Email: info@chervonaknyga.ua</p>
+                <p>Телефон: +380 123 456 789</p>
+                <p>Адреса: вул. Природна, 15, Київ, Україна</p>
+            </div>
+            <div class="footer-column">
+                <h3>Швидкі посилання</h3>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="history.html">Історія</a></li>
+                    <li><a href="#">Корисне</a></li>
+                    <li><a href="#">Про нас</a></li>
+                </ul>
+            </div>
+            <div class="footer-column social-media">
+                <h3>Соціальні мережі</h3>
+                <ul class="social-icons">
+                    <li><a href="#"><img src="images/fb.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/inst.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="images/x.png" alt="Twitter"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Червона книга України. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>            
+</body>
+</html>
