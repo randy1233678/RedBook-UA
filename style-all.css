@@ -52,12 +52,12 @@ nav ul li a {
     gap: 20px;
     margin-bottom: 20px;
     background-color: #d6d4d47a;
-    padding: 20px; /* Внутрішні відступи */
-    max-width: 1800px; /* Максимальна ширина контейнера */
-    margin: 20px auto; /* Центрування контейнера */
-    background-color: rgba(255, 255, 255, 0.5); /* Легкий фон */
-    border-radius: 8px; /* Заокруглення кутів */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тінь для об'єму */
+    padding: 20px;
+    max-width: 1800px; 
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .image-section img {
@@ -118,52 +118,51 @@ footer {
 
 .image-container {
     display: flex;
-    justify-content: center; /* Центрує зображення */
-    overflow: hidden; /* Приховує частини, що виходять за межі контейнера */
+    justify-content: center;
+    overflow: hidden;
 }
 
 .full-width-image {
-    width: 100%; /* Ширина на 100% */
-    height: 80px; /* Встановлює висоту контейнера */
-    object-fit: cover; /* Заповнює контейнер, зберігаючи пропорції */
+    width: 100%;
+    height: 80px; 
+    object-fit: cover;
 }
 
 h1 {
-    text-align: center; /* Центрування заголовка */
-    color: #333; /* Колір заголовка */
+    text-align: center;
+    color: #333; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2 {
-    text-align: center; /* Центрування заголовка */
-    color: #373737; /* Колір заголовка */
+    text-align: center;
+    color: #373737; 
 }
 
 p {
-    line-height: 1.6; /* Висота рядка для кращої читабельності */
-    color: #555; /* Колір тексту */
-    margin-bottom: 15px; /* Відступ між абзацами */
+    line-height: 1.6; 
+    color: #555; 
+    margin-bottom: 15px; 
 }
 
 header {
-    height: 60px; /* Збільшуємо висоту овала */
+    height: 60px; 
     background-color:#333;
     padding: 0 20px;
     margin: 10px;
-    border-radius: 30px; /* Заокруглюємо кути відповідно до нової висоти */
+    border-radius: 30px; 
     color: white;
     display: flex;
-    align-items: center; /* Центруємо елементи по вертикалі */
-    justify-content: space-between; /* Зберігаємо вирівнювання по горизонталі */
+    align-items: center; 
+    justify-content: space-between; 
     box-sizing: border-box;
 }
 
-/* Вирівнювання елементів меню */
 header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center; /* Вирівнювання по вертикалі */
+    align-items: center; 
 }
 
 header .logo {
@@ -172,28 +171,28 @@ header .logo {
 
 header nav {
     display: flex;
-    align-items: center; /* Вирівнювання меню по центру вертикально */
+    align-items: center; 
     flex-grow: 1;
 }
 
 header .search-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Тримати елементи праворуч */
+    justify-content: flex-end;
     flex-grow: 1;
 }
 
 header ul li {
-    margin: 5px 10px; /* Менші відступи між кнопками */
-    display: inline-block; /* Використовуємо inline-block для правильного вирівнювання */
+    margin: 5px 10px; 
+    display: inline-block; 
 }
 
 header ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px; /* Внутрішні відступи для кнопок */
-    border-radius: 4px; /* Заокруглення кутів кнопок */
-    transition: background-color 0.3s; /* Додаємо плавну анімацію при наведенні */
+    padding: 10px 15px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s; 
 }
 
 header ul li img {
@@ -203,27 +202,25 @@ header ul li img {
 
 /* Стиль для пошукового рядка */
 .search-input {
-    padding: 5px 15px; /* Внутрішній відступ для інпуту пошуку */
+    padding: 5px 15px; 
     margin-left: 10px;
     border: none;
-    border-radius: 30px; /* Відповідно до висоти контейнера */
+    border-radius: 30px;
     background-color: #f0f0f0;
     font-size: 16px;
     transition: background-color 0.3s;
     width: 270px;
 }
 
-/* При наведенні на поле вводу */
 .search-input:focus {
-    background-color: #e0e0e0; /* Темніший фон при фокусі */
-    outline: none; /* Прибираємо обведення при фокусі */
+    background-color: #e0e0e0; 
+    outline: none; 
 }
 
-/* Стиль для кнопки */
 .search-button {
-    padding: 5px 20px; /* Внутрішній відступ для кнопки пошуку */
+    padding: 5px 20px; 
     border: none;
-    border-radius: 30px; /* Відповідно до висоти контейнера */
+    border-radius: 30px; 
     background-color: #4CAF50;
     color: white;
     font-size: 16px;
@@ -232,18 +229,15 @@ header ul li img {
     margin-left: 20px;
 }
 
-/* При наведенні на кнопку */
 .search-button:hover {
-    background-color: #45a049; /* Темніший зелений при наведенні */
+    background-color: #45a049; 
 }
 
 #navBar {
-    transition: margin-left 0.5s ease; /* Анімація зсуву */
-    margin-left: 0; /* За замовчуванням */
+    transition: margin-left 0.5s ease; 
+    margin-left: 0; 
 }
 
-/* Стиль для бокового меню */
-/* Основне меню */
 .side-menu {
     height: 100%;
     width: 0;
@@ -261,14 +255,12 @@ header ul li img {
     display: none;
 }
 
-/* Активний стан для посилання */
 .side-menu a.active {
     background-color: #373737;
-    color: #ffffff; /* Світліший текст */
-    border-radius: 8px; /* Заокруглені кути */
+    color: #ffffff; 
+    border-radius: 8px; 
 }
 
-/* Перехід для плавної зміни кольору і фону */
 .side-menu a {
     display: inline-block !important;
     align-items: center;
@@ -276,7 +268,7 @@ header ul li img {
     text-decoration: none;
     font-size: 16px;
     color: #cccccc;
-    transition: color 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease; /* Плавний перехід */
+    transition: color 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease; 
 }
 
 .side-menu a:hover {
@@ -285,13 +277,11 @@ header ul li img {
     border-radius: 8px;
 }
 
-/* Іконки (псевдоелементи або текст) */
 .side-menu a::before {
     content: '📁'; 
     margin-right: 10px;
 }
 
-/* Підменю */
 .submenu {
     list-style-type: none;
     margin: 0;
@@ -300,7 +290,7 @@ header ul li img {
 }
 
 .submenu a {
-    font-size: 18px; /* Менший розмір шрифту для підпунктів */
+    font-size: 18px; 
     padding: 7px;
 }
 
@@ -315,7 +305,6 @@ header ul li img {
     border-radius: 8px;
 }
 
-/* Кнопка для закриття меню */
 .side-menu .close-btn {
     position: absolute;
     top: 5px;
@@ -332,33 +321,32 @@ header ul li img {
 }
 
 
-/* Вирівнювання заголовка меню */
 .menu-header {
-    display: flex; /* Використання Flexbox для вирівнювання */
-    align-items: center; /* Вертикальне вирівнювання елементів */
-    justify-content: space-between; /* Вирівнювання між кнопкою та заголовком */
-    padding: 0; /* Прибираємо відступи */
-    background-color: #373737; /* Колір фону */
-    height: 30px; /* Висота заголовка для вирівнювання */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0; 
+    background-color: #373737; 
+    height: 30px; 
 }
 
 .menu-title {
-    color: #f1f1f1; /* Колір заголовка */
-    font-size: 24px; /* Розмір шрифту заголовка */
-    margin: 0; /* Прибираємо всі відступи */
-    line-height: 50px; /* Вирівнювання висоти рядка з кнопкою */
-    flex-grow: 1; /* Дозволяє заголовку займати доступний простір */
-    text-align: center; /* Центруємо текст заголовка */
-    cursor: pointer; /* Зміна курсору на руку */
+    color: #f1f1f1; 
+    font-size: 24px; 
+    margin: 0; 
+    line-height: 50px; 
+    flex-grow: 1; 
+    text-align: center; 
+    cursor: pointer; 
     background-color: #373737;
 }
 
 .menu-title:hover {
-    color: #f1f1f1; /* Колір заголовка при наведенні */
+    color: #f1f1f1; 
 }
 
 .side-menu ul {
-    list-style-type: none; /* Прибираємо маркери */
+    list-style-type: none; 
     padding: 0;
     margin: 0;
 }
@@ -368,48 +356,48 @@ header ul li img {
 }
 
 .main-link {
-    background-color: transparent; /* Фон кнопки */
-    border: none; /* Прибираємо рамку */
-    color: #d9d7d7; /* Колір тексту */
-    font-size: 25px; /* Розмір шрифту */
-    padding: 8px 16px; /* Відступи */
-    cursor: pointer; /* Курсор у вигляді руки */
+    background-color: transparent; 
+    border: none; 
+    color: #d9d7d7; 
+    font-size: 25px; 
+    padding: 8px 16px; 
+    cursor: pointer;
     display: block;
-    text-align: left; /* Вирівнювання тексту */
-    white-space: nowrap; /* Запобігаємо переносу слів */
-    overflow: hidden; /* Сховати текст, якщо він виходить за межі */
-    text-overflow: ellipsis; /* Додати три крапки, якщо текст виходить за межі */
-    transition: background-color 0.3s ease, border-radius 0.3s ease; /* Додаємо плавний перехід для border-radius */
+    text-align: left; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    transition: background-color 0.3s ease, border-radius 0.3s ease; 
 }
 
 .main-link:hover,
 .main-link {
-    background-color: #232323; /* Фоновий колір при hover */
-    color: white; /* Колір тексту при hover */
+    background-color: #232323; 
+    color: white; 
     border-radius: 8px;
 }
 
 .nav {
-    display: flex; /* Використовуємо flexbox для навігації */
-    align-items: center; /* Вирівнюємо елементи по вертикалі */
-    height: 40px; /* Встановлюємо висоту навігаційної панелі */
-    transition: margin-left 0.3s ease; /* Плавна анімація для зсуву овалу навігації */
+    display: flex; 
+    align-items: center; 
+    height: 40px; 
+    transition: margin-left 0.3s ease; 
 }
 
 .nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between; /* Додаємо простір між елементами */
-    align-items: center; /* Вирівнюємо елементи по вертикалі */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 0;
 }
 
 .nav li {
-    margin-right: 20px; /* Відступи між елементами списку */
+    margin-right: 20px; 
 }
 
 .nav li:last-child {
-    margin-left: 440px; /* Переміщуємо останній елемент до правого краю */
+    margin-left: 440px; 
 }
 
 .nav ul li {
@@ -417,26 +405,27 @@ header ul li img {
 }
 
 .nav ul li a {
-    color: #fff; /* Білий текст */
-    text-decoration: none; /* Без підкреслення */
-    font-size: 18px; /* Розмір шрифту */
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 18px; 
 }
 
 .nav ul li a:hover {
-    text-decoration: none; /* Підкреслення при наведенні */
+    text-decoration: none; 
     color: rgba(215, 65, 1, 0.718);
 }
 
 .image-grid { 
-    display: grid; /* Це тіпа для сітки з картінками */
+    display: grid; 
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     padding: 20px;
 }
 
 .grid-item {
+    align-items: center;    
     background-color: #ffffff7b;
-    border-radius: 8px; /* Заокруглюємо краї елемента сітки */
+    border-radius: 8px; 
     overflow: hidden;
     text-align: center;
     display: flex;
@@ -459,46 +448,45 @@ header ul li img {
 .grid-button {
     display: block;
     padding: 10px;
-    margin: 0; /* Прибираємо відступи */
+    margin: 0; 
     border: none;
     color: rgb(0, 0, 0);
     cursor: pointer;
     text-decoration: none;
-    border-radius: 0; /* Прибираємо заокруглення, щоб відповідало розміру елемента */
+    border-radius: 0; 
     outline: none;
-    flex-grow: 1; /* Дозволяємо кнопці розтягнутися на всю висоту */
+    flex-grow: 1; 
 }
 
 .grid-item:hover {
-    background-color: rgba(33, 156, 26, 0.432); /* Підсвічування всього елемента сітки при наведенні */
+    background-color: rgba(33, 156, 26, 0.432); 
 }
 
 .grid-button:hover {
-    background-color: transparent; /* Підсвічування вже додане на рівні .grid-item */
+    background-color: transparent; 
 }
 
 .content-container {
-    transition: margin-left 0.3s ease; /* Анімація зсуву */
-    margin-left: 0; /* За замовчуванням */
+    transition: margin-left 0.3s ease; 
+    margin-left: 0; 
     
-    background-size: cover; /* Зображення заповнює весь контейнер */
-    background-position: center; /* Центруємо зображення */
-    background-repeat: no-repeat; /* Запобігаємо повторенню зображення */
-    padding: 20px; /* Додатковий відступ, якщо потрібно */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 20px;
 }
 
-/* Адаптивний дизайн */
 @media (max-width: 1200px) {
     .image-grid {
         grid-template-columns: repeat(4, 1fr);
     }
 
     header ul {
-        justify-content: space-between; /* Вирівнюємо елементи меню */
+        justify-content: space-between;
     }
 
     .side-menu ul li {
-        padding: 10px 16px; /* Зменшено відступи для менших екранів */
+        padding: 10px 16px;
     }
 }
 
@@ -508,7 +496,7 @@ header ul li img {
     }
 
     .grid-button {
-        font-size: 18px; /* Зменшуємо розмір кнопки для менших екранів */
+        font-size: 18px; 
     }
 }
 
@@ -518,51 +506,51 @@ header ul li img {
     }
 
     .grid-button {
-        font-size: 16px; /* Зменшуємо розмір кнопки для менших екранів */
+        font-size: 16px; 
     }
 
     header ul li {
-        margin-right: 10px; /* Менші відступи для меню */
+        margin-right: 10px; 
     }
 }
 
 @media (max-width: 576px) {
     .image-grid {
-        grid-template-columns: 1fr; /* Один стовпець для маленьких екранів */
+        grid-template-columns: 1fr; 
     }
 
     .grid-button {
-        padding: 8px; /* Зменшуємо відступи кнопки */
-        font-size: 14px; /* Зменшуємо розмір кнопки */
+        padding: 8px; 
+        font-size: 14px; 
     }
 
     h1 {
-        font-size: 24px; /* Зменшуємо розмір заголовка */
+        font-size: 24px; 
     }
 
     p {
-        font-size: 14px; /* Зменшуємо розмір тексту */
+        font-size: 14px; 
     }
 }
 
 @media (max-width: 400px) {
     header ul li {
-        margin-right: 5px; /* Ще менші відступи для маленьких екранів */
+        margin-right: 5px; 
     }
 
     .grid-button {
-        padding: 6px; /* Зменшуємо відступи кнопки */
-        font-size: 12px; /* Зменшуємо розмір кнопки */
+        padding: 6px; 
+        font-size: 12px; 
     }
 }
 .section-title {
     text-align: center; 
     font-size: 28px; 
     color: #333; 
-    margin: 20px 0; /* Відступи зверху і знизу */
-    font-weight: bold; /* Жирний шрифт для заголовка */
-    text-transform: uppercase; /* Усі літери великі для стилю */
-    letter-spacing: 1px; /* Відстань між літерами для кращого вигляду */
+    margin: 20px 0; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
 }
 /* Footer styles */
 .footer {
@@ -570,7 +558,7 @@ header ul li img {
     color: #f1f1f1;
     padding: 30px 0;
     margin-top: 40px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Додаємо тінь */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .footer-container {
@@ -580,9 +568,9 @@ header ul li img {
     max-width: 1800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.29); /* Прозорий фон для збереження стилю */
+    background-color: rgba(255, 255, 255, 0.29); 
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тінь для глибини */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .footer-column {
@@ -597,9 +585,8 @@ header ul li img {
     color: #e0e0e0;
 }
 
-/* Вирівнюємо заголовок "Соціальні мережі" вправо */
 .footer-column.social-media {
-    text-align: right; /* Вирівнюємо текст вправо */
+    text-align: right; 
 }
 
 .footer-column p,
@@ -622,18 +609,18 @@ header ul li img {
 }
 
 .footer-column a:hover {
-    color: #d74101; /* Оранжевий колір при наведенні */
+    color: #d74101; 
 }
 
 /* Соціальні мережі */
 .social-icons {
     display: flex;
-    justify-content: flex-end; /* Вирівнюємо іконки вправо */
+    justify-content: flex-end; 
 }
 
 .social-icons li {
     list-style: none;
-    margin-left: 10px; /* Відступ між іконками */
+    margin-left: 10px; 
 }
 
 .social-icons a img {
@@ -644,7 +631,7 @@ header ul li img {
 }
 
 .social-icons a:hover img {
-    filter: brightness(0.8); /* Легке затемнення при наведенні */
+    filter: brightness(0.8); 
 }
 
 .footer-bottom {
@@ -656,7 +643,6 @@ header ul li img {
     color: #f1f1f1;
 }
 
-/* Адаптивний дизайн для футера */
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
@@ -687,36 +673,35 @@ header ul li img {
 
 .breadcrumb a {
     text-decoration: none;
-    color: black; /* Змінено на чорний */
+    color: black; 
 }
 
 .breadcrumb a:hover {
-    color: red; /* Змінено на червоний при наведенні */
+    color: red; 
 }
 
 .breadcrumb li:last-child a {
-    color: #555; /* Колір для останнього елемента без посилання */
+    color: #555; 
 }
 
-/* тут тестова залупа*/
 .categories {
-    display: flex; /* Встановлюємо флекс-контейнер */
-    justify-content: center; /* Центруємо елементи */
-    margin: 20px 0; /* Відступи з верхньої і нижньої сторін */
+    display: flex; 
+    justify-content: center; 
+    margin: 20px 0; 
 }
 
 .category {
-    background-color: #e0e0e0; /* Фон категорії */
-    margin: 0 10px; /* Відступи зліва і справа */
-    padding: 20px; /* Внутрішні відступи */
-    border-radius: 10px; /* Заокруглення країв */
-    cursor: pointer; /* Курсор у вигляді руки при наведенні */
-    text-align: center; /* Вирівнювання тексту по центру */
-    transition: background-color 0.3s; /* Плавна анімація при наведенні */
+    background-color: #e0e0e0; 
+    margin: 0 10px; 
+    padding: 20px; 
+    border-radius: 10px;
+    cursor: pointer; 
+    text-align: center; 
+    transition: background-color 0.3s;
 }
 
 .category:hover {
-    background-color: #c0c0c0; /* Колір фону при наведенні */
+    background-color: #c0c0c0; 
 }
 
 .images {
@@ -732,9 +717,116 @@ header ul li img {
 }
 
 .images img:hover {
-    transform: scale(1.1); /* Збільшення зображення при наведенні */
+    transform: scale(1.1); 
 }
-/* Загальний стиль для смуги прокрутки */
+
 ::-webkit-scrollbar {
     display: none;}
   
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit; 
+}
+
+.main {
+    margin: 0 auto; 
+    padding: 10px;
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .image-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-section img {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .image-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header ul li {
+        margin-right: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    .grid-button {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
